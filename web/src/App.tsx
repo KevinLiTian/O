@@ -1,7 +1,13 @@
-import './App.css'
+import { BrowserRouter } from "react-router-dom";
+import TransitionRoutes from "./utils/TransitionRoutes";
+import "./App.css";
 
 function App() {
-  return (<h1>Hello, World!</h1>)
+  return (
+    <BrowserRouter>
+      <TransitionRoutes />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
