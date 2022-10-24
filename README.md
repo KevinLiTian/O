@@ -41,6 +41,9 @@ We recommand [VS Code](https://code.visualstudio.com/) as your default code edit
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
 ```
