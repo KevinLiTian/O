@@ -14,17 +14,7 @@ export default function TransitionRoutes() {
               path={page.path}
               key={page.path}
               element={
-                <div
-                  style={{
-                    position: "absolute",
-                    right: 0,
-                    left: 0,
-                    bottom: 0,
-                    top: 0,
-                  }}
-                >
-                  <div style={{ minHeight: "100vh" }}>{page.component}</div>
-                </div>
+                <div style={{ minHeight: "100vh" }}>{page.component}</div>
               }
             />
           );
@@ -32,17 +22,7 @@ export default function TransitionRoutes() {
         <Route
           path="*"
           element={
-            <div
-              style={{
-                position: "absolute",
-                right: 0,
-                left: 0,
-                bottom: 0,
-                top: 0,
-              }}
-            >
-              <div style={{ minHeight: "100vh" }}>{pages["404"].component}</div>
-            </div>
+            <div style={{ minHeight: "100vh" }}>{pages["404"].component}</div>
           }
         />
       </Routes>

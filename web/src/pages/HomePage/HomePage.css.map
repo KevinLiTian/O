@@ -1,10 +1,7 @@
 {
   "version": 3,
-  "sources": [
-    "HomePage.scss",
-    "HomePage.css"
-  ],
+  "sources": [],
   "names": [],
-  "mappings": "AAAA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,8BAAA;ACCF",
+  "mappings": "",
   "file": "HomePage.css"
 }
