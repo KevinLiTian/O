@@ -1,10 +1,11 @@
-import { ReactElement } from "react";
 import "./HomePage.css";
 
-export default function HomePage(): ReactElement {
+import Navbar from "../../components/Navbar/Navbar";
+
+export default function HomePage(): JSX.Element {
   return (
-    <div className="home-page full-view">
-      <h1>Home</h1>
+    <div className="home-page">
+      <Navbar />
     </div>
   );
 }
