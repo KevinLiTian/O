@@ -36,8 +36,8 @@ export default function Navbar(): JSX.Element {
           onClick={() => setToggle((prev) => !prev)}
           className={`mobile-menu navbar-link ${toggle ? "active" : ""}`}
         >
-          <span className="line line-top"></span>
-          <span className="line line-bottom"></span>
+          <span className="line-top"></span>
+          <span className="line-bottom"></span>
         </div>
         <img src={Logo} alt="" className="navbar-link" />
         <img src={Bag} alt="" className="navbar-link navbar-bag" />
